@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Professional Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=96&id=vo1XcGH8QAag&format=png">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo" id="home-link">
+                <img src="Black and orange Minimalist Education Logo.png" alt="Logo">
+                Free Professional Course Finder
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#" id="nav-home">Home</a></li>
+                    <li><a href="#" id="nav-about">About Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="container">
+        <!-- <h2>hello wolrdd</h2> -->
+        <div class="search-card" id="home-page">
+            <h2>Find Best & Free Courses</h2>
+            <br>
+            <div class="filter-group">
+                <div class="filter-item">
+                    <label for="topic">Select Topic:</label>
+                    <select id="topic">
+                        <option value="">-- Select a Topic --</option>
+                        <option value="it">Information Technology</option>
+                        <option value="business">Business & Entrepreneurship</option>
+                        <option value="design">Healthcare & Wellness</option>
+                        <option value="marketing">Art & Humanities</option>
+                        <option value="data-science">Environmental Studies</option>
+                    </select>
+                </div>
+                
+                <div class="filter-item">
+                    <label for="type">Filter by:</label>
+                    <select id="type">
+                        <option value="">-- Select Type --</option>
+                        <option value="free">Free</option>
+                        <option value="paid">Paid</option>
+                    </select>
+                </div>
+            </div>
+            
+            <button id="search-btn" class="search-btn" disabled>Find Courses</button>
+            <p id="error-message" class="error-message">Please select both fields to continue</p>
+        </div>
+        
+        <div class="courses-page" id="courses-page">
+            <h2>Recommended Courses</h2>
+            <div id="courses-grid" class="courses-grid">
+            </div>
+            <button class="back-btn" id="courses-back-btn">Back to Home</button>
+        </div>
+        
+        <div class="about-page" id="about-page">
+            <div class="about-card">
+                <img src="WhatsApp Image 2025-04-02 at 16.11.01_41fdab12.jpg" alt="Profile Image" class="profile-image">
+                <h2>About Me</h2>
+                <p>My name is Arjun Dhiman, and I am studying in Class 12. My school name is Public Inter College, Sadholi Kadeem. I live in Village Jatowala, Tehsil Behat, District Saharanpur. I study in Hindi medium. My subjects include Hindi, English, Mathematics, Physics, Chemistry.
+                    There are 4 members in my family: my brother and my parents. My father works in labour. My mother is a homemaker.
+                    When my class teacher introduced me to coding, I instantly got hooked. It was fascinating to see how computer applications work as a blend of software and hardware. This experience not only sparked my curiosity but also fueled my passion to dive deeper into the world of coding.
+                    In May, our class teacher introduced me about CodeYogi, an initiative aimed at helping students from rural areas learn coding.
+                    Through CodeYogi, I have learned HTML, CSS, JavaScript, Tailwind CSS, and React. At home, I practice coding on both my mobile phone and PC. So far, I have completed 50 levels of the Telegram course and 3 lectures from the advanced playlist.
+                    My Dream:
+                    I aspire to become a Software Engineer and work in software and web development. who provides innovative solutions to real-world problems. I aspire to build my own company that tackles job-related challenges and reduces unemployment by connecting people with opportunities. I want to contribute to the IT sector by creating systems and applications that make life easier for everyone.
+                    My Inspiration:
+                    I believe hard work and a willingness to learn can help anyone achieve their goals. Coming from a humble background, I take pride in my journey so far and look forward to making a mark in the tech world. I aim to not only build my career but also inspire others who, like me, dare to dream big and work hard to achieve their aspirations.</p>
+                <button class="back-btn" id="about-back-btn">Back to Home</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer id="main-footer">
+        <div class="footer-container">
+            <div class="footer-image">
+                <img src="boy with 4 icons.png" alt="Education Logo"  class="footer-logo-img">
+            </div>
+            <!-- <p class="copyright">© 2025 EduLearn. All rights reserved.</p> -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
